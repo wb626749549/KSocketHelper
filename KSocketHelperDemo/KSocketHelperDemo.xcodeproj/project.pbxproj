@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A09EAC8A1E7B1757D27344 /* libPods-KSocketHelperDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9743A99A8196E64CE6B8BE93 /* libPods-KSocketHelperDemoTests.a */; };
+		2DD768262239F36C0010FA2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD768252239F36C0010FA2C /* AppDelegate.m */; };
+		2DD768292239F36C0010FA2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD768282239F36C0010FA2C /* ViewController.m */; };
+		2DD7682C2239F36C0010FA2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD7682A2239F36C0010FA2C /* Main.storyboard */; };
+		2DD7682E2239F36D0010FA2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD7682D2239F36D0010FA2C /* Assets.xcassets */; };
+		2DD768312239F36D0010FA2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD7682F2239F36D0010FA2C /* LaunchScreen.storyboard */; };
+		2DD768342239F36D0010FA2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD768332239F36D0010FA2C /* main.m */; };
+		2DD7683E2239F36D0010FA2C /* KSocketHelperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD7683D2239F36D0010FA2C /* KSocketHelperDemoTests.m */; };
+		2DD768492239F36D0010FA2C /* KSocketHelperDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD768482239F36D0010FA2C /* KSocketHelperDemoUITests.m */; };
+		2DD7685D2239F38D0010FA2C /* KQSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD768592239F38D0010FA2C /* KQSocketManager.m */; };
+		2DD7685E2239F38D0010FA2C /* KQSocketModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD7685C2239F38D0010FA2C /* KQSocketModel.m */; };
+		5C935CE0EAD4D2861F294CCE /* libPods-KSocketHelperDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130444C92DF906A987536155 /* libPods-KSocketHelperDemoUITests.a */; };
+		F3D32E17EE7C0694AB608419 /* libPods-KSocketHelperDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CA509E2AB64F16E9D9520C /* libPods-KSocketHelperDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DD7683A2239F36D0010FA2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD768192239F36B0010FA2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD768202239F36B0010FA2C;
+			remoteInfo = KSocketHelperDemo;
+		};
+		2DD768452239F36D0010FA2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD768192239F36B0010FA2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD768202239F36B0010FA2C;
+			remoteInfo = KSocketHelperDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130444C92DF906A987536155 /* libPods-KSocketHelperDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSocketHelperDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD768212239F36B0010FA2C /* KSocketHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSocketHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD768242239F36C0010FA2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DD768252239F36C0010FA2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DD768272239F36C0010FA2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DD768282239F36C0010FA2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DD7682B2239F36C0010FA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DD7682D2239F36D0010FA2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DD768302239F36D0010FA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DD768322239F36D0010FA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD768332239F36D0010FA2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DD768392239F36D0010FA2C /* KSocketHelperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSocketHelperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD7683D2239F36D0010FA2C /* KSocketHelperDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSocketHelperDemoTests.m; sourceTree = "<group>"; };
+		2DD7683F2239F36D0010FA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD768442239F36D0010FA2C /* KSocketHelperDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSocketHelperDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD768482239F36D0010FA2C /* KSocketHelperDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSocketHelperDemoUITests.m; sourceTree = "<group>"; };
+		2DD7684A2239F36D0010FA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD768582239F38D0010FA2C /* KQSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQSocketManager.h; sourceTree = "<group>"; };
+		2DD768592239F38D0010FA2C /* KQSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQSocketManager.m; sourceTree = "<group>"; };
+		2DD7685B2239F38D0010FA2C /* KQSocketModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQSocketModel.h; sourceTree = "<group>"; };
+		2DD7685C2239F38D0010FA2C /* KQSocketModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQSocketModel.m; sourceTree = "<group>"; };
+		4BFB39CC6C9AF0ACDB245F74 /* Pods-KSocketHelperDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSocketHelperDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSocketHelperDemoTests/Pods-KSocketHelperDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		771256A6FD7EDF84ABC26115 /* Pods-KSocketHelperDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSocketHelperDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSocketHelperDemo/Pods-KSocketHelperDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7ECAB0E8F22992AD6924C974 /* Pods-KSocketHelperDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSocketHelperDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSocketHelperDemoUITests/Pods-KSocketHelperDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80AC4443B506C849A54C2697 /* Pods-KSocketHelperDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSocketHelperDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSocketHelperDemo/Pods-KSocketHelperDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9743A99A8196E64CE6B8BE93 /* libPods-KSocketHelperDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSocketHelperDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB62BB75B626DE71967CF978 /* Pods-KSocketHelperDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSocketHelperDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSocketHelperDemoUITests/Pods-KSocketHelperDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9CA509E2AB64F16E9D9520C /* libPods-KSocketHelperDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSocketHelperDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D7C32BF9395F3B3C2422C4 /* Pods-KSocketHelperDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSocketHelperDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSocketHelperDemoTests/Pods-KSocketHelperDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DD7681E2239F36B0010FA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D32E17EE7C0694AB608419 /* libPods-KSocketHelperDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD768362239F36D0010FA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A09EAC8A1E7B1757D27344 /* libPods-KSocketHelperDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD768412239F36D0010FA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C935CE0EAD4D2861F294CCE /* libPods-KSocketHelperDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD768182239F36B0010FA2C = {
+			isa = PBXGroup;
+			children = (
+				2DD768232239F36B0010FA2C /* KSocketHelperDemo */,
+				2DD7683C2239F36D0010FA2C /* KSocketHelperDemoTests */,
+				2DD768472239F36D0010FA2C /* KSocketHelperDemoUITests */,
+				2DD768222239F36B0010FA2C /* Products */,
+				E8ECB2D269DFE62136EDB1B0 /* Pods */,
+				8E294B4027134BCD054ADB01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DD768222239F36B0010FA2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DD768212239F36B0010FA2C /* KSocketHelperDemo.app */,
+				2DD768392239F36D0010FA2C /* KSocketHelperDemoTests.xctest */,
+				2DD768442239F36D0010FA2C /* KSocketHelperDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DD768232239F36B0010FA2C /* KSocketHelperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2DD768562239F38D0010FA2C /* SocketHelper */,
+				2DD768242239F36C0010FA2C /* AppDelegate.h */,
+				2DD768252239F36C0010FA2C /* AppDelegate.m */,
+				2DD768272239F36C0010FA2C /* ViewController.h */,
+				2DD768282239F36C0010FA2C /* ViewController.m */,
+				2DD7682A2239F36C0010FA2C /* Main.storyboard */,
+				2DD7682D2239F36D0010FA2C /* Assets.xcassets */,
+				2DD7682F2239F36D0010FA2C /* LaunchScreen.storyboard */,
+				2DD768322239F36D0010FA2C /* Info.plist */,
+				2DD768332239F36D0010FA2C /* main.m */,
+			);
+			path = KSocketHelperDemo;
+			sourceTree = "<group>";
+		};
+		2DD7683C2239F36D0010FA2C /* KSocketHelperDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DD7683D2239F36D0010FA2C /* KSocketHelperDemoTests.m */,
+				2DD7683F2239F36D0010FA2C /* Info.plist */,
+			);
+			path = KSocketHelperDemoTests;
+			sourceTree = "<group>";
+		};
+		2DD768472239F36D0010FA2C /* KSocketHelperDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DD768482239F36D0010FA2C /* KSocketHelperDemoUITests.m */,
+				2DD7684A2239F36D0010FA2C /* Info.plist */,
+			);
+			path = KSocketHelperDemoUITests;
+			sourceTree = "<group>";
+		};
+		2DD768562239F38D0010FA2C /* SocketHelper */ = {
+			isa = PBXGroup;
+			children = (
+				2DD768572239F38D0010FA2C /* Manager */,
+				2DD7685A2239F38D0010FA2C /* Model */,
+			);
+			path = SocketHelper;
+			sourceTree = "<group>";
+		};
+		2DD768572239F38D0010FA2C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2DD768582239F38D0010FA2C /* KQSocketManager.h */,
+				2DD768592239F38D0010FA2C /* KQSocketManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2DD7685A2239F38D0010FA2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DD7685B2239F38D0010FA2C /* KQSocketModel.h */,
+				2DD7685C2239F38D0010FA2C /* KQSocketModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E294B4027134BCD054ADB01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9CA509E2AB64F16E9D9520C /* libPods-KSocketHelperDemo.a */,
+				9743A99A8196E64CE6B8BE93 /* libPods-KSocketHelperDemoTests.a */,
+				130444C92DF906A987536155 /* libPods-KSocketHelperDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8ECB2D269DFE62136EDB1B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				771256A6FD7EDF84ABC26115 /* Pods-KSocketHelperDemo.debug.xcconfig */,
+				80AC4443B506C849A54C2697 /* Pods-KSocketHelperDemo.release.xcconfig */,
+				F2D7C32BF9395F3B3C2422C4 /* Pods-KSocketHelperDemoTests.debug.xcconfig */,
+				4BFB39CC6C9AF0ACDB245F74 /* Pods-KSocketHelperDemoTests.release.xcconfig */,
+				7ECAB0E8F22992AD6924C974 /* Pods-KSocketHelperDemoUITests.debug.xcconfig */,
+				BB62BB75B626DE71967CF978 /* Pods-KSocketHelperDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DD768202239F36B0010FA2C /* KSocketHelperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD7684D2239F36D0010FA2C /* Build configuration list for PBXNativeTarget "KSocketHelperDemo" */;
+			buildPhases = (
+				C3037303CF81FB7C5B8B4CA2 /* [CP] Check Pods Manifest.lock */,
+				2DD7681D2239F36B0010FA2C /* Sources */,
+				2DD7681E2239F36B0010FA2C /* Frameworks */,
+				2DD7681F2239F36B0010FA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSocketHelperDemo;
+			productName = KSocketHelperDemo;
+			productReference = 2DD768212239F36B0010FA2C /* KSocketHelperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DD768382239F36D0010FA2C /* KSocketHelperDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD768502239F36D0010FA2C /* Build configuration list for PBXNativeTarget "KSocketHelperDemoTests" */;
+			buildPhases = (
+				F91F0A1799B892D8295A99AF /* [CP] Check Pods Manifest.lock */,
+				2DD768352239F36D0010FA2C /* Sources */,
+				2DD768362239F36D0010FA2C /* Frameworks */,
+				2DD768372239F36D0010FA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD7683B2239F36D0010FA2C /* PBXTargetDependency */,
+			);
+			name = KSocketHelperDemoTests;
+			productName = KSocketHelperDemoTests;
+			productReference = 2DD768392239F36D0010FA2C /* KSocketHelperDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DD768432239F36D0010FA2C /* KSocketHelperDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD768532239F36D0010FA2C /* Build configuration list for PBXNativeTarget "KSocketHelperDemoUITests" */;
+			buildPhases = (
+				FB2A289BE42EBEBA5B8D6D6C /* [CP] Check Pods Manifest.lock */,
+				2DD768402239F36D0010FA2C /* Sources */,
+				2DD768412239F36D0010FA2C /* Frameworks */,
+				2DD768422239F36D0010FA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD768462239F36D0010FA2C /* PBXTargetDependency */,
+			);
+			name = KSocketHelperDemoUITests;
+			productName = KSocketHelperDemoUITests;
+			productReference = 2DD768442239F36D0010FA2C /* KSocketHelperDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DD768192239F36B0010FA2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = k;
+				TargetAttributes = {
+					2DD768202239F36B0010FA2C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2DD768382239F36D0010FA2C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2DD768202239F36B0010FA2C;
+					};
+					2DD768432239F36D0010FA2C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2DD768202239F36B0010FA2C;
+					};
+				};
+			};
+			buildConfigurationList = 2DD7681C2239F36B0010FA2C /* Build configuration list for PBXProject "KSocketHelperDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DD768182239F36B0010FA2C;
+			productRefGroup = 2DD768222239F36B0010FA2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DD768202239F36B0010FA2C /* KSocketHelperDemo */,
+				2DD768382239F36D0010FA2C /* KSocketHelperDemoTests */,
+				2DD768432239F36D0010FA2C /* KSocketHelperDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DD7681F2239F36B0010FA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD768312239F36D0010FA2C /* LaunchScreen.storyboard in Resources */,
+				2DD7682E2239F36D0010FA2C /* Assets.xcassets in Resources */,
+				2DD7682C2239F36C0010FA2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD768372239F36D0010FA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD768422239F36D0010FA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3037303CF81FB7C5B8B4CA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSocketHelperDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F91F0A1799B892D8295A99AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSocketHelperDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2A289BE42EBEBA5B8D6D6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSocketHelperDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD7681D2239F36B0010FA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD7685D2239F38D0010FA2C /* KQSocketManager.m in Sources */,
+				2DD7685E2239F38D0010FA2C /* KQSocketModel.m in Sources */,
+				2DD768292239F36C0010FA2C /* ViewController.m in Sources */,
+				2DD768342239F36D0010FA2C /* main.m in Sources */,
+				2DD768262239F36C0010FA2C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD768352239F36D0010FA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD7683E2239F36D0010FA2C /* KSocketHelperDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD768402239F36D0010FA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD768492239F36D0010FA2C /* KSocketHelperDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DD7683B2239F36D0010FA2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD768202239F36B0010FA2C /* KSocketHelperDemo */;
+			targetProxy = 2DD7683A2239F36D0010FA2C /* PBXContainerItemProxy */;
+		};
+		2DD768462239F36D0010FA2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD768202239F36B0010FA2C /* KSocketHelperDemo */;
+			targetProxy = 2DD768452239F36D0010FA2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DD7682A2239F36C0010FA2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD7682B2239F36C0010FA2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DD7682F2239F36D0010FA2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD768302239F36D0010FA2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DD7684B2239F36D0010FA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DD7684C2239F36D0010FA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DD7684E2239F36D0010FA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771256A6FD7EDF84ABC26115 /* Pods-KSocketHelperDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4297AAD5MV;
+				INFOPLIST_FILE = KSocketHelperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.KSocketHelperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DD7684F2239F36D0010FA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80AC4443B506C849A54C2697 /* Pods-KSocketHelperDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4297AAD5MV;
+				INFOPLIST_FILE = KSocketHelperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.KSocketHelperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DD768512239F36D0010FA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D7C32BF9395F3B3C2422C4 /* Pods-KSocketHelperDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4297AAD5MV;
+				INFOPLIST_FILE = KSocketHelperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.KSocketHelperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSocketHelperDemo.app/KSocketHelperDemo";
+			};
+			name = Debug;
+		};
+		2DD768522239F36D0010FA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BFB39CC6C9AF0ACDB245F74 /* Pods-KSocketHelperDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4297AAD5MV;
+				INFOPLIST_FILE = KSocketHelperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.KSocketHelperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSocketHelperDemo.app/KSocketHelperDemo";
+			};
+			name = Release;
+		};
+		2DD768542239F36D0010FA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECAB0E8F22992AD6924C974 /* Pods-KSocketHelperDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4297AAD5MV;
+				INFOPLIST_FILE = KSocketHelperDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.KSocketHelperDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSocketHelperDemo;
+			};
+			name = Debug;
+		};
+		2DD768552239F36D0010FA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB62BB75B626DE71967CF978 /* Pods-KSocketHelperDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4297AAD5MV;
+				INFOPLIST_FILE = KSocketHelperDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.k.KSocketHelperDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSocketHelperDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DD7681C2239F36B0010FA2C /* Build configuration list for PBXProject "KSocketHelperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD7684B2239F36D0010FA2C /* Debug */,
+				2DD7684C2239F36D0010FA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD7684D2239F36D0010FA2C /* Build configuration list for PBXNativeTarget "KSocketHelperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD7684E2239F36D0010FA2C /* Debug */,
+				2DD7684F2239F36D0010FA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD768502239F36D0010FA2C /* Build configuration list for PBXNativeTarget "KSocketHelperDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD768512239F36D0010FA2C /* Debug */,
+				2DD768522239F36D0010FA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD768532239F36D0010FA2C /* Build configuration list for PBXNativeTarget "KSocketHelperDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD768542239F36D0010FA2C /* Debug */,
+				2DD768552239F36D0010FA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DD768192239F36B0010FA2C /* Project object */;
+}
